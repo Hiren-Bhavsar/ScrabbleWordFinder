@@ -17,6 +17,6 @@
             <ComboBoxItem FontWeight="Bold" FontSize="13" Content="Word Length Ascending" HorizontalAlignment="Center" />
         </ComboBox>
         <Button Content="Search" Padding="2" Margin="50 3" HorizontalAlignment="Center" Width="113"/>
-
+        <TextBox IsReadOnly="True" Name="TextBox" Margin="10 10" Height="230" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" />
     </StackPanel>
 </Window>
