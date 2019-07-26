@@ -1,0 +1,15 @@
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\bin\Debug\ScrabbleWordFinder.exe.config
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\bin\Debug\ScrabbleWordFinder.exe
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\bin\Debug\ScrabbleWordFinder.pdb
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.csprojAssemblyReference.cache
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\MainWindow.g.cs
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\App.g.cs
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder_MarkupCompile.cache
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder_MarkupCompile.lref
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\MainWindow.baml
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.g.resources
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.Properties.Resources.resources
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.csproj.GenerateResource.cache
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.csproj.CoreCompileInputs.cache
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.exe
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\ScrabbleWordFinder.pdb
