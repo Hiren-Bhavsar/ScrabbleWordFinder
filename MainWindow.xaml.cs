@@ -32,22 +32,28 @@ namespace ScrabbleWordFinder {
         }
 
         private void SearchButton_Click(object sender, RoutedEventArgs e) {
+            wordOptions.Clear();
+            WordBox.Clear();
+            bool isDescending = SortChooser.SelectedIndex == 0 ? true : false;
+            string lettersToSearch = LetterBox.Text;
 
+            wordSearcher(lettersToSearch, isDescending);
         }
 
-        private void wordSearcher(string lettersToSearch) {
+        private void wordSearcher(string lettersToSearch, bool isDescending) {
             lettersToSearch = lettersToSearch.Replace(" ", string.Empty);
 
             foreach (string line in File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, fileName))) {
                 if (line.Length <= lettersToSearch.Length) {
                     if (String_Contains_String(line, lettersToSearch)) {
-                        addStringToDictionary(line);
+                        addStringToDictionary(line, isDescending);
                         
                     }
                 }
             }
             foreach (KeyValuePair<string, int> kv in ordered) {
-                Console.WriteLine(kv.Key + " " + kv.Value);
+                WordBox.AppendText(kv.Key + " "+ kv.Value + "\n");
+                //Console.WriteLine(kv.Key + " " + kv.Value);
             }
 
         }
@@ -68,9 +74,13 @@ namespace ScrabbleWordFinder {
             return true;
         }
 
-        private void addStringToDictionary(string toAdd) {
+        private void addStringToDictionary(string toAdd, bool isDescending) {
             wordOptions.Add(toAdd, calculatePointValue(toAdd));
-            ordered = wordOptions.OrderByDescending(x => x.Value);
+            if (isDescending) {
+                ordered = wordOptions.OrderByDescending(x => x.Value);
+            } else { 
+                ordered = wordOptions.OrderBy(x => x.Value);
+            }
         }
 
         private int calculatePointValue(string toCal) {
