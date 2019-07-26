@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScrabbleWordFinder"
         mc:Ignorable="d"
-        Title="Scrabble Word Finder" Height="400" Width="300" ResizeMode="NoResize">
+        Title="Scrabble Word Finder" Height="400" Width="250" ResizeMode="NoResize">
     <StackPanel Background="DarkSlateGray">
 
         <TextBlock Text="Scrabble Word Finder" Foreground="White" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="5 5"/>
-        <TextBox Margin="30 3" Padding="2" Background="WhiteSmoke" FontSize="13" Foreground="Black" HorizontalContentAlignment="Center"/>
-        <ComboBox FontWeight="Bold" FontSize="13" Margin="30 3" Padding="2" Background="WhiteSmoke" Foreground="Black" HorizontalContentAlignment="Center">
+        <TextBox Name="LetterBox" Margin="10 3" Padding="2" Background="WhiteSmoke" FontSize="13" Foreground="Black" HorizontalContentAlignment="Center"/>
+        <ComboBox FontWeight="Bold" FontSize="13" Margin="10 3" Padding="2" Background="WhiteSmoke" Foreground="Black" HorizontalContentAlignment="Center">
             <ComboBoxItem FontWeight="Bold" FontSize="13" Content="Points Descending" IsSelected="True" HorizontalAlignment="Center" />
             <ComboBoxItem FontWeight="Bold" FontSize="13" Content="Points Ascending" HorizontalAlignment="Center" />
             <ComboBoxItem FontWeight="Bold" FontSize="13" Content="Word Length Descending" HorizontalAlignment="Center" />
             <ComboBoxItem FontWeight="Bold" FontSize="13" Content="Word Length Ascending" HorizontalAlignment="Center" />
         </ComboBox>
-        <Button Content="Search" Padding="2" Margin="50 3" HorizontalAlignment="Center" Width="113"/>
-        <TextBox IsReadOnly="True" Name="TextBox" Margin="10 10" Height="230" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" />
+        <Button Name="SearchButton" Content="Search" Padding="2" Margin="10 3" Background="WhiteSmoke" FontWeight="Bold" Click="SearchButton_Click"/>
+        <TextBox IsReadOnly="True" Name="WordBox" Margin="10 8" Height="230" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" FontSize="12"/>
     </StackPanel>
 </Window>

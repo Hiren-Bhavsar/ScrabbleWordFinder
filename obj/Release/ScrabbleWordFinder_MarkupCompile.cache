@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Debug\
+C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\obj\Release\
 ScrabbleWordFinder
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\bhavs\git\Scrabble\ScrabbleWordFinder\ScrabbleWordFinder\App.xaml
 11151548125
 
