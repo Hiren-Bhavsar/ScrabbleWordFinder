@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ScrabbleWordFinder"
         mc:Ignorable="d"
         Title="Scrabble Word Finder" Height="400" Width="300" ResizeMode="NoResize">
-    <StackPanel Background="DarkSlateGray">
+    <StackPanel Background="DarkCyan">
 
         <TextBlock Text="Scrabble Word Finder" Foreground="White" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="5 5"/>
         <TextBox Name="LetterBox" Margin="10 3" Padding="2" Background="WhiteSmoke" FontSize="13" Foreground="Black" HorizontalContentAlignment="Center"/>
