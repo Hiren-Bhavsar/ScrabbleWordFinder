@@ -51,11 +51,14 @@ namespace ScrabbleWordFinder {
                     }
                 }
             }
-            foreach (KeyValuePair<string, int> kv in ordered) {
-                WordBox.AppendText(kv.Key + " "+ kv.Value + "\n");
-                //Console.WriteLine(kv.Key + " " + kv.Value);
-            }
-
+            if(ordered !=null){
+                foreach (KeyValuePair<string, int> kv in ordered) {
+                    WordBox.AppendText(kv.Key + " "+ kv.Value + "\n");
+                    //Console.WriteLine(kv.Key + " " + kv.Value);
+                }
+            }else{
+                    WordBox.AppendText("No Words Found");
+                }
         }
 
         private bool String_Contains_String(string compareTo, string compareSet) {
